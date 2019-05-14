@@ -1,0 +1,193 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  background-color:#00134d;
+}
+
+.liberty-logo > img {
+  max-width: 25%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.web-app{
+  margin-top: 0.5em;
+}
+
+.header{
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 1em;
+}
+
+.search-area{
+  padding: 1em 0;
+}
+
+.search-wrapper{
+  width: 25em;
+  margin: auto;
+  border: thin solid #ccc;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.cause-of-death{
+  margin-bottom: 2em;
+}
+
+.claim-model {
+  width: 60em;
+}
+
+.heading-4{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: #F1f1f1;
+}
+
+.heading-3{
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.sub-heading{
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.section-heading{
+  background-color: #00134d;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.margin-bottom-2{
+  margin-bottom:2em; 
+}
+
+.right-float-btn{
+  float: right;
+}
+
+.table-row{
+  margin-top: 2em;
+}
+
+.border-less{
+  border: none;
+  border-color:#ffffff; 
+}
+
+.input-field, .input-field > div{
+  width: 200px !important;
+}
+
+.floated-input{
+  float: left;
+}
+
+.form-group {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+.inline-block > .form-group{
+  margin-bottom: 1.5em;
+    display: inline-block;
+    margin: 10px;
+}
+
+.divider{
+  margin: 1em 0 !important;
+}
+
+.form-field{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.chck-box{
+  padding: 0 !important;
+}
+
+.wrapper{
+  padding: 0.5em 1.5em;
+}
+
+.content-area, .inline-block{
+  margin: 1em auto;
+}
+
+.checklist-items{
+  margin-bottom: 1em;
+  vertical-align: top;
+}
+
+.column{
+  float: left;
+  width: 220px;
+}
+
+.clr{
+  clear: both;
+}
+
+.margin-right-10px{
+  margin-right: 10px;
+}
+
+.no-margin{
+  margin:0;
+}
+
+.wizard-page {
+  margin: 2em auto;
+  background-color: #ffffff;
+}
+
+.wizard-nav{
+  width:100%;
+}
+
+.wizard-nav-back {
+  float: left;
+}
+
+.wizard-nav-next {
+  float: right;
+}
+
+.clr{
+  clear: both;
+}
+
+.accordion
+{
+  font-size: 1.3em;
+  font-weight: 300;
+  border-bottom:1px solid #F1f1f1 !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .search-area{
+    width: 100%;
+  }
+
+  .input-field, .input-field > div{
+    width: 175px !important;
+  }
+}
+
+@media only screen and (min-device-width : 768px) {
+}
